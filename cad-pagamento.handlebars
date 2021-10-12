@@ -1,0 +1,13 @@
+var http = require ('http');
+.listen(8080);
+
+<h1>Formulário para cadatrar pagamento</h1>
+<form action="/add-pagamento" method="POST">
+    <label>Nome</label>
+    <input type="text" name="nome"><br><br>
+
+    <label>Valor</label>
+    <input type="text" name="valor"><br><br>
+
+    <button type="submit">Cadastrar</button>
+</form>
